@@ -1,0 +1,11 @@
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+#
+# coder: b0b
+# stamp: 1999-12-31
+
+base:
+  'dom0':
+    - config.srv-sliver-dvm
+    - config.srv-sliver
+  'srv-sliver-template':
+    - config.srv-sliver-template-config
